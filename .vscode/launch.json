@@ -373,6 +373,14 @@
                 "NODE_ENV": "development",
                 "CUSTOM_CONTEXT": "example"
             }
+        },
+        {
+            "name": "Launch Safari",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/Applications/Safari.app/Contents/MacOS/Safari"
         }
     ]
 }
